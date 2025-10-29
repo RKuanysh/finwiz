@@ -1,0 +1,6 @@
+services:
+  finwiz:
+    build: .
+    
+    environment:
+      GOOGLE_API_KEY: ${GOOGLE_API_KEY}

@@ -1,0 +1,50 @@
+# 1. Virtual Environments
+# Exclude common virtual environment directories
+/venv/
+/.venv/
+/env/
+/.env/
+/ENV/
+/env.bak/
+/venv.bak/
+
+# 2. Secrets & Config
+# Exclude environment files which store secrets and local config
+.env
+.env.*
+!.env.example
+
+# 3. Python Bytecode & Caches
+# Compiled Python files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Pytest cache
+.pytest_cache/
+.coverage
+
+# 4. Build & Distribution
+# Exclude build artifacts and packaging directories
+/build/
+/dist/
+*.egg-info/
+*.egg
+
+# 5. IDE / Editor Files
+# VSCode
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# JetBrains (PyCharm, etc.)
+.idea/
+
+# 6. Operating System Files
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
